@@ -1,0 +1,19 @@
+{
+  "enablePullDownRefresh": true,
+  "bounce": "none",
+  "titleNView": {
+    "type": "transparent",
+    "buttons": [
+      {
+        "background": "rgba(255,255,255,0.2)",
+        "color": "#696969",
+        "type": "none",
+        "fontSrc": "/static/fonts/iconfont.ttf",
+        "text": ""
+      }
+    ]
+  },
+  "usingComponents": {
+    "chat-input": "/components/im-chat/chatinput"
+  }
+}

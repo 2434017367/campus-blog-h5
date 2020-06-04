@@ -1,0 +1,6 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "chat-input": "/components/im-chat/chatinput"
+  }
+}

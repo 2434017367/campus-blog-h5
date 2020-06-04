@@ -1,0 +1,1 @@
+<view class="main"><block wx:for="{{list}}" wx:for-item="topic" wx:for-index="index" wx:key="index"><view style="margin-top:20rpx;" id="id"><view data-event-opts="{{[['tap',[['toPost',[index]]]]]}}" class="topic" bindtap="__e"><text class="topic_text">{{topic.title}}</text></view></view></block></view>

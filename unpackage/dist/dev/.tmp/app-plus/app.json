@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/publish/publish",
+    "pages/topic/topic",
+    "pages/me/me",
+    "pages/login/login1",
+    "pages/register/register",
+    "pages/login/login",
+    "pages/login/forget",
+    "pages/login/register",
+    "pages/me/email",
+    "pages/me/password",
+    "pages/me/username",
+    "pages/me/head_image",
+    "pages/topic/post",
+    "pages/me/post"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#515151",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/topic/topic",
+        "text": "话题"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "仿微信朋友圈模版",
+  "compilerVersion": "2.5.1",
+  "usingComponents": {}
+}
